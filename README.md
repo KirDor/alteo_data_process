@@ -5,9 +5,12 @@ This script is designed to process JSON files from a specified directory, extrac
 To run the given Python script from the command line, you'll need to provide the required arguments using the `argparse` module's command-line interface. 
 
 ### Prerequisites:
-- Ensure Python is installed on your system.
+- Ensure Python 3.10+ is installed on your system.
 - Save the script in a `.py` format.
-- Intstall Used libaries (see below)
+   - Intstall Used libaries:
+     - `pandas`
+     - `json`
+     - `argparse`
 
 ### Required Arguments:
 1. **`--path`**: This argument specifies the directory path where the JSON files are located.
@@ -18,7 +21,7 @@ To run the given Python script from the command line, you'll need to provide the
 **Run the Script with Arguments**:
    - Execute the script using the `python` command followed by the script name and provide the required arguments `--path` and `--data_date`. For example:
      ```bash
-     python process_data.py --path /path/to/json/files --data_date 25-03-18
+     python alteo_data_files.py --path /path/to/json/files --data_date 2025-05-15
      ```
 
    - Replace `/path/to/json/files` with the actual path to the directory containing your JSON files.
@@ -26,7 +29,7 @@ To run the given Python script from the command line, you'll need to provide the
 
 ### Notes:
 - Ensure that the path and date are correctly formatted and valid.
-- The script assumes that the JSON files have a specific naming convention and contain expected data fields, so ensure your files match these expectations.
+- The script assumes that the JSON files have a specific naming convention and contain expected data fields.
 
 
 ### Used libaries:
