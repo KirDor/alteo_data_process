@@ -92,3 +92,8 @@ To run the given Python script from the command line, you'll need to provide the
   ```
   python script_name.py --path <directory_path> --data_date <date_in_yy-mm-dd_format>
   ```
+
+## Notes
+
+- I did not upload any data files, in accordance with the instructions.
+- I used an LLM (ChatGPT) for help with JSON validation and refining the usage of argparse.
